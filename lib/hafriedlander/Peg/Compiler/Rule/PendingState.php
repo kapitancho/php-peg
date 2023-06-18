@@ -8,6 +8,7 @@ namespace hafriedlander\Peg\Compiler\Rule;
  *
  * @author Hamish Friedlander
  */
+#[\AllowDynamicProperties]
 class PendingState {
 	function __construct() {
 		$this->what = NULL ;

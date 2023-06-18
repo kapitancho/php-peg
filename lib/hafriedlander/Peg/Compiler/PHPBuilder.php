@@ -2,6 +2,7 @@
 
 namespace hafriedlander\Peg\Compiler;
 
+#[\AllowDynamicProperties]
 class PHPBuilder {
 
 	static function build () {

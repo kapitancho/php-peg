@@ -9,6 +9,7 @@ namespace hafriedlander\Peg\Parser;
  * - some abstraction of code that would otherwise be repeated many times in a compiled grammer, mostly related to calling user functions
  *   for result construction and building
  */
+#[\AllowDynamicProperties]
 class Basic {
 	function __construct( $string ) {
 		$this->string = $string ;

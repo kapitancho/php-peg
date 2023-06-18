@@ -9,6 +9,7 @@ namespace hafriedlander\Peg\Compiler;
  *
  * @author Hamish Friedlander
  */
+#[\AllowDynamicProperties]
 class Rule extends PHPWriter {
 
 	static $rule_rx = '@

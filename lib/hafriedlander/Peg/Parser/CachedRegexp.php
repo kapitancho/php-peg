@@ -10,6 +10,7 @@ namespace hafriedlander\Peg\Parser;
  *  Of course, the next regex might be outside that bracket - after the bracket if other matches have progressed beyond the match position, or before
  *  the bracket if a failed match + restore has moved the current position backwards - so we have to check that too.
  */
+#[\AllowDynamicProperties]
 class CachedRegexp {
 	function __construct( $parser, $rx ) {
 		$this->parser = $parser ;
