@@ -1,8 +1,8 @@
 {
 	"name":         "kapitancho/php-peg",
-	"description":  "PEG (parsing expression grammar) compiler for PHP (a PHP 8.2 compatible fork of hafriedlander/php-peg",
+	"description":  "PEG (parsing expression grammar) compiler for PHP (a PHP 8.2 compatible fork of hafriedlander/php-peg)",
 	"keywords":     ["PEG", "parser", "DSL", "compiler"],
-	"homepage":     "https://github.com/hafriedlander/php-peg",
+	"homepage":     "https://github.com/kapitancho/php-peg",
 	"type":         "library",
 	"license":      ["MIT", "GPLv2", "BSD-3"],
 	"authors":      [
